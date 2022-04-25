@@ -1,11 +1,32 @@
 const display = document.getElementById('display');
-function play() {
+/*function play() {
     const clearaudio = document.getElementById("clear-audio");
     clearaudio.play();
+}*/
+
+const buttons = document.querySelectorAll(".buttons > input");
+
+for(let button of buttons) {
+  button.addEventListener('click', (e) => {
+      if (e.target.id == "clear") 
+      {
+        const sound = document.querySelector("#clear-audio");
+        sound.currenttime = 0;
+        sound.play();
+      }
+      else if (e.target.id == "divide") 
+      {
+        const sound1 = document.querySelector("#divide-audio");
+        sound1.currenttime = 0;
+        sound1.play();
+        console.log('second');
+      }
+    
+  })
 }
 
 //using an array
-const buttons = Array.from(document.getElementsByClassName('button'));
+/*const buttons = Array.from(document.getElementsByClassName('button'));
 
 // to add the content a clicked button the display
 buttons.map( buttons => {
@@ -30,6 +51,6 @@ buttons.map( buttons => {
                 display.innerText += e.target.innerText;
         }
     });
-});
+});*/
 
 
