@@ -7,9 +7,32 @@
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
+    background-color: brown;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
 }
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0rem;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.button {
+    background-color: brown;
+    border: 1px;
+    border-radius: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    margin: 1%;
+    text-align: center;
 }

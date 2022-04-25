@@ -1,6 +1,11 @@
-let display = document.getElementById('display');
+const display = document.getElementById('display');
+function play() {
+    const clearaudio = document.getElementById("clear-audio");
+    clearaudio.play();
+}
+
 //using an array
-let buttons = Array.from(document.getElementsByClassName('button'));
+const buttons = Array.from(document.getElementsByClassName('button'));
 
 // to add the content a clicked button the display
 buttons.map( buttons => {
@@ -26,3 +31,5 @@ buttons.map( buttons => {
         }
     });
 });
+
+
