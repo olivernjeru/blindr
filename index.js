@@ -6,6 +6,7 @@ const display = document.getElementById('display');
 
 const buttons = document.querySelectorAll(".buttons > input");
 
+
 for(let button of buttons) {
   button.addEventListener('click', (e) => {
       let sound;
@@ -21,7 +22,7 @@ for(let button of buttons) {
         sound = document.querySelector("#divide-audio");
         sound.currenttime = 0;
         sound.play();
-        display.innerText = '/';
+        display.innerText += '/';
       }
       else if (e.target.id == "backspace") 
       {
@@ -153,7 +154,7 @@ for(let button of buttons) {
             display.innerText = eval(display.innerText);
         } catch {
             display.innerText = 'Error!';
-        }      
+        } 
     }
   })
 }
