@@ -6,7 +6,6 @@ const display = document.getElementById('display');
 
 const buttons = document.querySelectorAll(".buttons > input");
 
-
 for(let button of buttons) {
   button.addEventListener('click', (e) => {
       let sound;
