@@ -1,7 +1,7 @@
 # BLINDR
 <<<<<<< HEAD
 =======
-
+<p>Welcome to Blindr, a calculator for the blind.</p>
 <h1>Landing Page</h1>
 
 ![landing-page](https://user-images.githubusercontent.com/51198797/165939823-72eddce0-fea0-40d6-9646-25342f66061b.png)
