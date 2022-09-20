@@ -22,6 +22,3 @@
 <h1>Correct calculations result</h1>
 
 ![correct-calculations-result](https://user-images.githubusercontent.com/51198797/165940256-0898dfd7-69a2-4bb5-bc8d-dac241ff8e27.png)
-
-
->>>>>>> 60304aebbd012a3d20e1734d11ff52a61bf25d34
