@@ -1,6 +1,4 @@
 # BLINDR
-<<<<<<< HEAD
-=======
 <p>Welcome to Blindr, a calculator for the blind.</p>
 <h1>Landing Page</h1>
 
